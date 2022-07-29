@@ -1,0 +1,104 @@
+@import 'colours';
+
+.containerAspirasi{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.container.bodyContainer {
+    padding: 0px;
+    background-color: #FFFFFF;
+}
+
+.logoContainer{
+    padding-right: 0px;
+    padding-left: 0px;
+    height: 68px;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 12px;
+    border: 1px solid #C4C4C4
+}
+
+.bgWhite{
+    width: 100%;
+    background-color: $color-red-low;
+    margin-bottom: 20px;
+}
+
+.bgWhites{
+    // width: 100%;
+    background-color: $color-white;
+    // margin-bottom: 20px;
+}
+
+.gridData{
+    background-color: $color-white;
+    border-bottom: 0.5px solid #C4C4C4;
+    margin-bottom: 5px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.gridItem2{
+    color: #4A4A4A;
+    font-weight: 600;
+}
+
+.textStats{
+    text-align: left;
+    color: rgba(74, 74, 74, 1);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px
+}
+
+.congratText{
+    color: rgba(74, 74, 74, 1);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.congratText2{
+    color: rgba(74, 74, 74, 1);
+    font-size: 25px;
+    text-align: center;
+}
+
+.loanTextbg{
+    background-color: $color-grey;  
+    font-size: 25px; 
+    font-weight: bold;
+}
+
+.aspirasiBtnBg{
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 34px;
+    background: #FFFFFF;
+}
+
+.btnAspirasiContainer{
+    overflow-x: auto;
+    // inline-size: fit-content;
+    // /* flex: 1 !important; */
+    // width: 100%;
+    // /* display: inline-flex; */
+    // white-space: nowrap;
+}
+
+@media (max-width: 991.98px) {
+    .btnAspirasiContainer{
+        overflow-x: scroll;
+        inline-size: fit-content;
+        /* flex: 1 !important; */
+        // background-color: #C4C4C4;
+        width: 100%;
+        /* display: inline-flex; */
+        white-space: nowrap;
+    }
+}

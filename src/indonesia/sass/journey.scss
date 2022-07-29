@@ -1,0 +1,34 @@
+@import 'base';
+
+.flex-container {
+  // flex: auto;
+  display: flex;
+  flex-direction: column;
+
+ 
+  .flex-paper {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+
+    .page-journey {
+      flex: auto;
+      display: flex;
+      flex-direction: column;
+      // width: 100%;
+    }
+  }
+
+  .page-journey {
+    width: 100%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .flex-container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

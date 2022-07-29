@@ -1,0 +1,1 @@
+export { DigiDataService } from './digidata/digidata';

@@ -1,0 +1,64 @@
+.footer-logo {
+  width: 160px;
+  margin: 0px auto 20px;
+}
+
+.footer3 {
+  background-color: #D0021B;
+  // margin-top: 20px;
+  padding: 15px 0px;
+  text-align: left;
+  
+  .help-link {
+    a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: white;
+    }
+  }
+  .contact-info {
+    margin-top: 10px;
+    a {
+      margin-right:  20px;
+    }
+
+    a, label, p {
+      font-size: 14px;
+      margin-bottom: 0px;
+      text-decoration: none;
+      color: white;
+
+      img.icon {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .afpi-logo{
+    margin-left: 20px;
+    float: right;
+  }
+
+  .whiteOutline {
+    // -webkit-filter: drop-shadow(2px 1px 0 white) drop-shadow(-1px -1px 0 white);
+    // filter: drop-shadow(4px 1px 0 white) drop-shadow(-1px -1px 0 white);
+  }
+
+}
+
+@media (max-width: 575.98px) {
+  .footer-logo {
+    width: 120px;
+    margin: 0px auto 20px;
+  }
+  .footer3 {
+    .help-link {
+      
+    }
+  }
+
+  .afpi-logo{
+    margin-left: 20px;
+  }
+
+}

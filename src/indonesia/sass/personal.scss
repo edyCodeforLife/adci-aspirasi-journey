@@ -1,0 +1,123 @@
+@import 'colours';
+.page-personal {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  .content {
+    flex: 1;
+
+    .paper {
+      margin: 0 20px 20px 20px;
+      padding: 20px;
+      box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+      -o-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+      -ms-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+      -moz-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+      -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+      border-radius: 4px;
+      -o-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+
+      .ic-holder {
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+        .watermark {
+          position: absolute;
+          margin-bottom: 0px;
+          font-size: 40px;
+          font-weight: 300;
+          padding: 5px 0;
+          width: 100%;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+  
+      .section {
+
+        &.section-personal {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+        }
+
+        .question {
+          font-size: 16px;
+          font-weight: bold;
+          text-align: left;
+          margin-bottom: 5px;
+        } 
+
+        .radio-group {
+          flex-direction: row;
+      
+          .radio-label {
+            min-width: 180px;
+            border-radius: 5px;
+            border: 1px solid #BCBCBC;
+      
+            &.selected {
+              border: 1px solid $color-secondary;
+            }
+          }
+        } 
+      }
+    }
+  }
+
+  .action-holder {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 20px 15px 10px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .page-personal {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+  
+    .content {
+      .stepper {
+        padding-left: 15px;
+
+        .paper {
+          margin: 0;
+          padding: 20px 0px 15px 0px;
+          box-shadow: none;
+          -o-box-shadow: none;
+          -ms-box-shadow: none;
+          -moz-box-shadow: none;
+          -webkit-box-shadow: none;
+          border-radius: 4px;
+          -o-border-radius: 5px;
+          -ms-border-radius: 5px;
+          -moz-border-radius: 5px;
+          -webkit-border-radius: 5px;
+
+    
+
+          .section {
+
+          }
+        }
+      }
+    }
+
+    .action-holder {
+      display: flex;
+      justify-content: flex-end;
+      margin: -10px 15px 15px 10px;
+  
+      button{
+        outline: none;
+      }
+    }
+  }
+}

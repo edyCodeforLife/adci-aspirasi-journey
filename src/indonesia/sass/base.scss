@@ -1,0 +1,32 @@
+@import 'colours';
+
+.page {
+ // min-height: -webkit-fill-available;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  .page-container {
+    flex: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .page-container-full-height {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    flex: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+Button.next {
+  border-radius: 0;
+  outline: none; 
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 3px;
+}
